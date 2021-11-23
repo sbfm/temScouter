@@ -1,0 +1,52 @@
+<% 
+  var trate= "Trate";
+  var item =  "Item";
+  //var trate= "個性";
+  //var item =  "道具";
+%>
+<% for (var i = 1; i <= 8; i++) { %>
+<div id="layoutBox<%= i %>">
+  <div class="dataArea">
+    <div class="stCard">
+    <div class="ubox">
+      <div class="stal">
+        <div class="baseName"></div>
+        <div class="type"></div>
+        <div><%= trate %></div>
+        <div class="trateBox"><div class="trateName"></div></div>
+        <table>
+          <tr><td>x4</td><td class="weeklist"></td></tr>
+          <tr><td>x2</td><td class="weeklist"></td></tr>
+          <tr><td>1/2</td><td class="weeklist"></td></tr>
+          <tr><td>1/4</td><td class="weeklist"></td></tr>
+        </table>
+      </div>
+      <div class="star">
+        <div><%= item %></div>
+        <div class="itemBox"></div>
+        <table class="statusBox">
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">HP</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">STA</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">SPD</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">ATK</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">DEF</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">SPATK</span></div></td><td class="statusValue"></td></tr>
+          <tr><td class="statusNameBox"><div class="statusBackground"><span class="statusName">SPDEF</span></div></td><td class="statusValue"></td></tr>
+        </table>
+      </div>
+    </div>
+    <div class="techniqueCardBox">
+      <div class="techniqueCard"><div class="techniqueName"></div></div>
+      <div class="techniqueCard"><div class="techniqueName"></div></div>
+      <div class="techniqueCard"><div class="techniqueName"></div></div>
+      <div class="techniqueCard"><div class="techniqueName"></div></div>
+    </div>
+  </div>
+    <div class="detailBox">
+      <div class="detail"></div>
+      <div class="detail-t"></div>
+      <div class="detail-u"></div>
+    </div>
+  </div>
+</div>
+<% } %>

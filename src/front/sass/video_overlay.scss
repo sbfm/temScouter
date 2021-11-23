@@ -1,0 +1,200 @@
+body {
+  font-family: "メイリオ", meiryo, sans-serif;
+  }
+#ue{
+  height: 17.7vh;
+}
+#main{
+  height: 66.7vh;
+}
+.box {
+  height: 8.3vh;
+  width: 9vw;
+}
+img {
+  pointer-events: none;
+}
+.dCard {
+  background-color:rgba(255,255,255,0.8);
+  border: 2px solid #aaa;
+  width: 300px;
+  height: 180px;
+  display: none;
+}
+.dataArea{
+  display: flex;
+}
+.techniqueDetail{
+  width:100%;
+}
+#layoutBox1,#layoutBox2,#layoutBox3,#layoutBox4,#layoutBox5,#layoutBox6,#layoutBox7,#layoutBox8 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+  width: 760px;
+  height: 334px;
+}
+#layoutBox1 {
+  top: calc((100vh - 10rem - 320px) / 7 * 0 + 5rem - 10px);
+  left: 7vw;
+}
+#layoutBox2 {
+  top: calc((100vh - 10rem - 320px) / 7 * 1 + 5rem - 10px);
+  left: 6vw;
+}
+#layoutBox3 {
+  top: calc((100vh - 10rem - 320px) / 7 * 2 + 5rem - 10px);
+  left: 7vw;
+}
+#layoutBox4 {
+  top: calc((100vh - 10rem - 320px) / 7 * 3 + 5rem - 10px);
+  left: 6vw;
+}
+#layoutBox5 {
+  top: calc((100vh - 10rem - 320px) / 7 * 4 + 5rem - 10px);
+  left: 7vw;
+}
+#layoutBox6 {
+  top: calc((100vh - 10rem - 320px) / 7 * 5 + 5rem - 10px);
+  left: 6vw;
+}
+#layoutBox7 {
+  top: calc((100vh - 10rem - 320px) / 7 * 6 + 5rem - 10px);
+  left: 7vw;
+}
+#layoutBox8 {
+  top: calc((100vh - 10rem - 320px) / 7 * 7 + 5rem - 10px);
+  left: 6vw;
+}
+.stCard {
+  color:#ffffff;
+  border: 2px solid #aaa;
+  width: 400px;
+  height: 330px;
+  user-select: none;
+  background-color:rgba(0,0,0,0.6);
+  border: 2px solid #000000;
+}
+.detail {
+  color:#ffffff;
+  border: 2px solid #aaa;
+  background-color:rgba(0,0,0,0.8);
+  border: 2px solid #000000;
+  visibility:hidden;
+  width: 350px;
+  height: 150px;
+}
+.detail-u {
+  color:#ffffff;
+  border: 2px solid #aaa;
+  background-color:rgba(0,0,0,0.8);
+  border: 2px solid #000000;
+  display: none;
+  width: 350px;
+  height: 150px;
+}
+.detail-t {
+  color: #ffffff;
+  background-color:rgba(0,0,0,0.8);
+  visibility:hidden;
+  width: 80px;
+  height: 26px;
+}
+.detailBox{
+  width: 350px;
+  height: 330px;
+}
+
+.techniqueCardBox {
+  display: flex;
+  height: 110px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.ubox {
+  display: flex;
+}
+.stal {
+  width: calc(45% - 5px);
+}
+.star {
+  width: calc(55% - 5px);
+}
+.techniqueCard {
+  width: calc(50% - 5px);
+  height: 50px;
+  background-color: #000000;
+  position: relative;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.trateBox {
+  height: 50px;
+  background-color: #ffffff;
+  position: relative;
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.trateName {
+  color:#000000;
+  position: absolute;
+  top: 50%;
+  width: 95%;
+  transform: translate(0, -50%);
+  padding: 0 10px 0 10px;
+}
+.itemBox {
+  background-color: #000000;
+  padding: 5px 0;
+  font-size:12px;
+}
+.statusBackground{
+  display: inline-block;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.statusName{
+  margin: 0 7px 0 7px;
+  color: #fff;
+  font-weight: bold; 
+  text-stroke: 2px #000;
+  -webkit-text-stroke: 1px #000;
+}
+.techniqueName{
+  position: absolute;
+  top: 50%;
+  width: 95%;
+  transform: translate(0, -50%);
+  padding: 0 10px 0 10px;
+  color: #fff;
+  font-weight: bold; 
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+  line-height: 17px;
+}
+.statusValue{
+  color: #fff;
+  font-weight: bold; 
+  width:100%;
+  padding: 0 0px 0 4px;
+}
+.statusNameBox {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+// 矢印
+.arrow{
+   margin: 4vh 0;
+   padding: 0.5vh 0.2vw;
+   display: block;
+   width: 4vw;
+   background: #ff6347;
+   text-align: center;
+   font-size: 2.1vh;
+   line-height: 2.7vh;
+}

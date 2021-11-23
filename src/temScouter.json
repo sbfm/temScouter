@@ -1,0 +1,132 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "node backend",
+  "backendFolderName": "sever",
+  "certificateExceptions": [],
+  "extensionViews": [
+    {
+      "channelId": "117601392",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "shibamata",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      },
+      "id": "1",
+      "isPopout": false,
+      "label": "",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Portrait",
+      "type": "video_overlay",
+      "viewerType": "Broadcaster"
+    },
+    {
+      "channelId": "117601392",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "shibamata",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      },
+      "id": "2",
+      "isPopout": false,
+      "label": "",
+      "linked": true,
+      "linkedUserId": "265737932",
+      "orientation": "Portrait",
+      "type": "config",
+      "viewerType": "Broadcaster"
+    },
+    {
+      "channelId": "117601392",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "shibamata",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 852,
+        "height": 480
+      },
+      "id": "3",
+      "isPopout": false,
+      "label": "",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Portrait",
+      "type": "video_overlay",
+      "viewerType": "Broadcaster"
+    }
+  ],
+  "manifest": {
+    "anchor": "video_overlay",
+    "assetUrls": [],
+    "authorName": "shibamata",
+    "bitsEnabled": false,
+    "canInstall": true,
+    "configUrl": "https://localhost:8080/config.html",
+    "configurationLocation": "none",
+    "description": "This is a plugin that displays the status of temtem.",
+    "eulaTosUrl": "",
+    "hasChatSupport": false,
+    "iconUrl": "https://extensions-discovery-images.twitch.tv/7bo9yderm2k3kcxl1gbpfq8qyrzzsl/0.0.2/logo6f59867a-d5cf-456d-aea7-09f086011be2",
+    "iconUrls": {
+      "100x100": "https://extensions-discovery-images.twitch.tv/7bo9yderm2k3kcxl1gbpfq8qyrzzsl/0.0.2/logo6f59867a-d5cf-456d-aea7-09f086011be2",
+      "24x24": "https://extensions-discovery-images.twitch.tv/7bo9yderm2k3kcxl1gbpfq8qyrzzsl/0.0.2/taskbar348b966c-c117-48c2-b098-82044112003c",
+      "300x200": "https://extensions-discovery-images.twitch.tv/7bo9yderm2k3kcxl1gbpfq8qyrzzsl/0.0.2/discoveryccf20895-75e3-4a5d-b1e3-0c7c70dbfcd7"
+    },
+    "id": "7bo9yderm2k3kcxl1gbpfq8qyrzzsl",
+    "installationCount": -42,
+    "liveConfigUrl": "",
+    "name": "temtemScouter",
+    "panelHeight": 0,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": false,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [
+      "https://extensions-discovery-images.twitch.tv/7bo9yderm2k3kcxl1gbpfq8qyrzzsl/0.0.1/screenshotd40c129d-9a46-49f2-bfcb-e08a1c8c45e0"
+    ],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "This is a plugin that displays the status of temtem.",
+    "supportEmail": "fumi_siba@yahoo.co.jp",
+    "vendorCode": "",
+    "version": "0.0.2",
+    "viewerSummary": "This is a plugin that displays the status of temtem.",
+    "viewerUrl": "",
+    "viewerUrls": {
+      "videoOverlay": "https://localhost:8080/video_overlay.html"
+    },
+    "views": {
+      "videoOverlay": {
+        "viewerUrl": "https://localhost:8080/video_overlay.html",
+        "canLinkExternalContent": false
+      },
+      "config": {
+        "viewerUrl": "https://localhost:8080/config.html",
+        "canLinkExternalContent": false
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "frontendCommand": "",
+  "frontendFolderName": "front",
+  "name": "temtemScouter",
+  "usingRandomFrontendHostingPort": false,
+  "version": 3
+}
